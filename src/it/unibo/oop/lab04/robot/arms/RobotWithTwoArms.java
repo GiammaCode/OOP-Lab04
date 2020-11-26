@@ -46,6 +46,10 @@ public class RobotWithTwoArms extends BaseRobot implements RobotWithArms  {
 	
 	}
 	
+	protected void doRelease() {
+		
+	}
+	
 	public boolean dropDown() {
 		nItems= 0;
 		if(isBatteryEnough(BasicArm.CONSUPTION_DROPDOWN + BasicArm.CONSUPTION_PICKUP)) {
